@@ -14,7 +14,7 @@ const manifest = defineManifest({
   content_scripts: [
     {
       js: ["src/content.ts"],
-      matches: ["https://en.wikipedia.org/wiki/Bear"],
+      matches: ["https://en.wikipedia.org/*"],
     },
   ],
   web_accessible_resources: [
